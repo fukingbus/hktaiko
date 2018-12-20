@@ -1,5 +1,67 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div id="root">
+    <div class="container">
+      <span>關於集鼓村</span>
+      <p>歡迎各位嚟到新集鼓村！</p>
+      <p>我係一個新手鼓眾，眼見舊集鼓村已經消失多時，又唔希望因為無相關嘅資訊而越嚟越少人玩，所以就買咗舊集鼓村嘅 Domain</p>
+      <p>未來希望將新集鼓村變為一個可以滿足無論新手定老手嘅網站！</p>
+      <br>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'about',
+};
+</script>
+
+<style>
+#root {
+    height: 100%;
+    display: contents;
+    position: relative;
+}
+
+.container{
+  display: block;
+  background-color: #4c53569e;
+  padding: 8px;
+  border-radius: 4px;
+  color: #E4E4E4;
+  text-align: center;
+}
+
+.container span{
+  font-size: large;
+  font-weight: bold;
+}
+
+.container p {
+  text-align: left;
+}
+
+@media all and (min-width:0px) and (max-width: 600px)
+{
+  .container {
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    margin: 0 8px 0 8px;
+    position: absolute;
+  }
+}
+
+@media all and (min-width: 600px){
+  .container {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+}
+
+</style>
