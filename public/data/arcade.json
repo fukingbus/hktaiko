@@ -15,7 +15,8 @@
                             "UNKNOWN"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             },
             {
                 "name": "Smart Game",
@@ -31,7 +32,8 @@
                             "POOR"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             },
             {
                 "name": "Game Zone",
@@ -43,11 +45,12 @@
                 "taiko":[
                     {
                         "status": [
-                            "UNKNOWN",
-                            "UNKNOWN"
+                            "GOOD",
+                            "FAIR"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             },
             {
                 "name": "金雞衞星世界",
@@ -59,11 +62,12 @@
                 "taiko":[
                     {
                         "status": [
-                            "UNKNOWN",
-                            "UNKNOWN"
+                            "FAIR",
+                            "FAIR"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             },
             {
                 "name": "美國寶",
@@ -79,7 +83,8 @@
                             "GOOD"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             }
         ],
         "NTR":[
@@ -103,7 +108,8 @@
                             "FAIR"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             },
             {
                 "name": "Power City",
@@ -119,7 +125,8 @@
                             "FAIR"
                         ]
                     }
-                ]
+                ],
+                "remark":"2P 公棍雙重感應，私棍正常"
             }
         ],
         "HKG":[
@@ -133,11 +140,12 @@
                 "taiko":[
                     {
                         "status": [
-                            "UNKNOWN",
-                            "UNKNOWN"
+                            "GOOD",
+                            "GOOD"
                         ]
                     }
-                ]
+                ],
+                "remark":null
             }
         ]
     },
