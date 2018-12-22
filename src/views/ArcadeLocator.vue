@@ -82,6 +82,22 @@ export default {
     self = this;
     getArcades();
   },
+  metaInfo: {
+    meta: [
+      { property: 'og:title', content: '集鼓村 - 太鼓街機資訊' },
+      { property: 'og:site_name', content: '集鼓村' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://hktaiko.com/arcade' },
+      { property: 'og:image', content: 'https://hktaiko.com/media/img/mura_logo.png' },
+      { property: 'og:description', content: '全新香港集鼓村，查詢港九新界太鼓の達人街機位置、鼓況。歡迎新舊鼓眾加入我們的 Telegram 群組！' },
+
+      { property: 'twitter:title', content: '集鼓村 - 太鼓街機資訊' },
+      { property: 'twitter:card', content: 'summary' },
+      { property: 'twitter:site', content: 'https://hktaiko.com/arcade' },
+      { property: 'twitter:image:src', content: 'https://hktaiko.com/media/img/mura_logo.png' },
+      { property: 'twitter:description', content: '全新香港集鼓村，查詢港九新界太鼓の達人街機位置、鼓況。歡迎新舊鼓眾加入我們的 Telegram 群組！' },
+    ],
+  },
 };
 </script>
 
