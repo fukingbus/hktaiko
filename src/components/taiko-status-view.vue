@@ -53,24 +53,26 @@ export default {
     display: inline-block;
   }
 
+  .taiko-status{
+    position: absolute;
+    left: 0;
+    z-index: 4;
+  }
+
   .taiko-container .status-good {
     width: 48px; height: 48px;
     background: url(/media/img/taiko_status_sprites.png) -78px -10px;
-    position: absolute;
   }
   .taiko-container .status-fair {
     width: 48px; height: 48px;
     background: url(/media/img/taiko_status_sprites.png) -10px -10px;
-    position: absolute;
   }
   .taiko-container .status-poor {
     width: 48px; height: 48px;
     background: url(/media/img/taiko_status_sprites.png) -10px -78px;
-    position: absolute;
   }
   .taiko-container .status-unknown {
     width: 48px; height: 48px;
     background: url(/media/img/taiko_status_sprites.png) -78px -78px;
-    position: absolute;
   }
 </style>
