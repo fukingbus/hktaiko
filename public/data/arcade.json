@@ -1,0 +1,155 @@
+{
+    "NEW":{
+        "KLN":[
+            {
+                "name": "龍威娛樂遊戲機中心",
+                "region": "深水埗",
+                "short_addr": "西岸國際大廈地庫",
+                "full_addr": "深水埗元州街 290 號",
+                "lat":"22.3356788",
+                "long":"114.1570114",
+                "taiko":[
+                    {
+                        "status": [
+                            "UNKNOWN",
+                            "UNKNOWN"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Smart Game",
+                "region": "旺角",
+                "short_addr": "新寶戲院 1 至 2 樓",
+                "full_addr": "旺角花園街 5 號",
+                "lat":"22.3167379",
+                "long":"114.1695266",
+                "taiko":[
+                    {
+                        "status": [
+                            "POOR",
+                            "POOR"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Game Zone",
+                "region": "旺角",
+                "short_addr": "新之城地庫",
+                "full_addr": "旺角彌敦道 688 號",
+                "lat":"22.3194276",
+                "long":"114.1655701",
+                "taiko":[
+                    {
+                        "status": [
+                            "UNKNOWN",
+                            "UNKNOWN"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "金雞衞星世界",
+                "region": "旺角",
+                "short_addr": "金雞廣場 2 樓",
+                "full_addr": "旺角洗衣街 39 號",
+                "lat":"22.318407",
+                "long":"114.171729",
+                "taiko":[
+                    {
+                        "status": [
+                            "UNKNOWN",
+                            "UNKNOWN"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "美國寶",
+                "region": "黃埔",
+                "short_addr": null,
+                "full_addr": "紅磡民泰街 13 號",
+                "lat":"22.3065203",
+                "long":"114.1856765",
+                "taiko":[
+                    {
+                        "status": [
+                            "GOOD",
+                            "GOOD"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "NTR":[
+            {
+                "name": "金禾X-Land",
+                "region": "荃灣",
+                "short_addr": "千色匯一期 4 樓 B",
+                "full_addr": "荃灣眾安街 68 號",
+                "lat":"22.3704929",
+                "long":"114.1155284",
+                "taiko":[
+                    {
+                        "status": [
+                            "POOR",
+                            "POOR"
+                        ]
+                    },
+                    {
+                        "status": [
+                            "FAIR",
+                            "FAIR"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Power City",
+                "region": "天水圍",
+                "short_addr": "置富嘉湖一期地下 G68",
+                "full_addr": "天水圍天恩路 18 號",
+                "lat":"22.4582125",
+                "long":"114.0015745",
+                "taiko":[
+                    {
+                        "status": [
+                            "POOR",
+                            "FAIR"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "HKG":[
+            {
+                "name": "Smart Game",
+                "region": "香港仔",
+                "short_addr": null,
+                "full_addr": "香港仔舊大街 82 號地庫",
+                "lat":"22.248251",
+                "long":"114.153956",
+                "taiko":[
+                    {
+                        "status": [
+                            "UNKNOWN",
+                            "UNKNOWN"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OLD":{
+        "KLN":[
+
+        ],
+        "NTR":[
+
+        ],
+        "HKG":[
+            
+        ]
+    }
+}

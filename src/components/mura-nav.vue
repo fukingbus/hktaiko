@@ -1,6 +1,7 @@
 <template>
   <nav>
       <router-link class="nav-link" to="/">主頁</router-link>
+      <router-link class="nav-link" to="/arcade">街機位置</router-link>
       <router-link class="nav-link" to="/about">關於</router-link>
   </nav>
 </template>
