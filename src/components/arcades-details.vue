@@ -12,8 +12,9 @@
           <div class="details-collapsed-container">
             <span class="details-arcade-address">地址：{{data.full_addr}}{{(data.short_addr!=null)?'，'+data.short_addr:''}}</span>
             <br>
-            <div ref="TAIKO_STATUS_CONTAINER">
-            </div>
+            <div ref="TAIKO_STATUS_CONTAINER"></div>
+            <br>
+            <span class="details-arcade-remark">{{(data.remark!=null)?`備註：${data.remark}`:``}}</span>
           </div>
         </div>
     </v-collapse-wrapper>
@@ -82,6 +83,9 @@ export default {
     margin-right: 8px;
     font-size: 18px;
     float: right;
+  }
+  .details-arcade-remark{
+    font-size: 18px;
   }
 
   hr{
