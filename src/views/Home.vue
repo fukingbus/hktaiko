@@ -8,6 +8,7 @@
 export default {
   name: 'home',
   metaInfo: {
+    title: '集鼓村 (建設中)',
     meta: [
       { property: 'og:title', content: '集鼓村' },
       { property: 'og:site_name', content: '集鼓村' },

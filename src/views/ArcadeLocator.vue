@@ -83,6 +83,7 @@ export default {
     getArcades();
   },
   metaInfo: {
+    title: '街機位置',
     meta: [
       { property: 'og:title', content: '集鼓村 - 太鼓街機資訊' },
       { property: 'og:site_name', content: '集鼓村' },

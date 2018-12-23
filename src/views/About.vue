@@ -15,6 +15,9 @@
 <script>
 export default {
   name: 'about',
+  metaInfo: {
+    title: '關於集鼓村',
+  },
 };
 </script>
 

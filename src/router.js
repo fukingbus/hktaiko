@@ -13,23 +13,14 @@ export default new Router({
     {
       path: '/',
       component: Home,
-      meta: {
-        title: '集鼓村 (建設中)',
-      },
     },
     {
       path: '/about',
       component: About,
-      meta: {
-        title: '關於集鼓村',
-      },
     },
     {
       path: '/arcade',
       component: Arcade,
-      meta: {
-        title: '街機位置',
-      },
     },
   ],
 });
