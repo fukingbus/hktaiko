@@ -8,6 +8,10 @@
 2. 為新舊鼓眾提供有用資訊
 3. 聚集香港太鼓鼓眾
 
+## SIDE PROJECT
+[Kyoku](https://github.com/fukingbus/kyoku) - 太鼓の達人（亞版）曲目Crawler, data from www.wikihouse.com/taiko
+
+
 ## WISH LIST
 
  - [x] vuejs Frontend + node.js Backend
@@ -22,9 +26,9 @@
 			  - [ ] 貼best record
 				  - [ ] OCR 分析
   - [ ] 譜面確認
-	  - [ ] 曲目資料庫
-		  - [ ] 自動播譜
-			  - [ ] Web Taiko simulator?
+  	- [ ] 自動播譜
+	- [ ] Web Taiko simulator?
+  - [x] 曲目資料庫
 	- [ ]  integrate w/ 晒命系統
   - [ ] 可持續發展
 	- [ ] 太鼓技巧
