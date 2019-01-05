@@ -1,13 +1,15 @@
 <template>
   <div id="root">
     <div class="container">
-      <span is="title">關於集鼓村</span>
-      <p>歡迎各位嚟到新集鼓村！</p>
-      <p>我係一個新手鼓眾，眼見舊集鼓村已經消失多時，又唔希望因為無相關嘅資訊而越嚟越少人玩，所以就買咗舊集鼓村嘅 Domain</p>
-      <p>未來希望將新集鼓村變為一個可以滿足無論新手定老手嘅網站！</p>
-      <br>
-      <p>開咗 Telegram Group，希望大家可以多多交流！</p>
-      <p>Telegram Group: <a href="https://t.me/syuukomura">t.me/syuukomura</a></p>
+      <div style="padding:8px;">
+        <span is="title">關於集鼓村</span>
+        <p>歡迎各位嚟到新集鼓村！</p>
+        <p>我係一個新手鼓眾，眼見舊集鼓村已經消失多時，又唔希望因為無相關嘅資訊而越嚟越少人玩，所以就買咗舊集鼓村嘅 Domain</p>
+        <p>未來希望將新集鼓村變為一個可以滿足無論新手定老手嘅網站！</p>
+        <br>
+        <p>開咗 Telegram Group，希望大家可以多多交流！</p>
+        <p>Telegram Group: <a href="https://t.me/syuukomura">t.me/syuukomura</a></p>
+      </div>
     </div>
   </div>
 </template>

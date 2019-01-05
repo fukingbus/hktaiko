@@ -1,14 +1,10 @@
 <template>
   <div class="details-container">
-    <v-collapse-wrapper>
-        <div class="header" v-collapse-toggle>
           <div class="details-header-container">
             <span class="details-arcade-region">{{data.region}}</span>
              <span class="details-arcade-name">{{data.name}}</span>
              <span class="details-arcade-taikoCount">{{data.taiko.length}}部</span>
           </div>
-        </div>
-        <div class="my-content" v-collapse-content>
           <div class="details-collapsed-container">
             <span class="details-arcade-address">地址：{{data.full_addr}}{{(data.short_addr!=null)?'，'+data.short_addr:''}}</span>
             <br>
@@ -16,8 +12,6 @@
             <br>
             <span class="details-arcade-remark">{{(data.remark!=null)?`備註：${data.remark}`:``}}</span>
           </div>
-        </div>
-    </v-collapse-wrapper>
   </div>
 </template>
 
@@ -55,6 +49,7 @@ export default {
   .details-container{
     background-color: #aeaeae54;
     margin: 8px 0px 0px 0px;
+    padding: 8px;
     border-radius: 4px;
   }
   .details-header-container{
