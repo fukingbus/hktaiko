@@ -56,12 +56,7 @@ export default {
 @media all and (min-width:0px) and (max-width: 600px)
 {
   .container {
-    top: 50%;
-    width: -webkit-fill-available;
-    -webkit-transform: translate(0%, -50%);
-    -moz-transform: translate(0%, -50%);
-    transform: translate(0%, -50%);
-    margin: 0 8px 0 8px;
+    margin: 8px 8px 0 8px;
     position: absolute;
   }
 }

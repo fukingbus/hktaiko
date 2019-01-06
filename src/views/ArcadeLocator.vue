@@ -141,10 +141,4 @@ export default {
     background: url(/media/img/mura_sprites.png) -78px -10px;
     position: absolute;
   }
-  @media all and (min-width:0px) and (max-width: 600px){
-     .v-collapse-content-end{
-      transition: max-height 0.3s ease-in;
-      max-height: 300px;
-    }
-  }
 </style>
